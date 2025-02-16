@@ -1,6 +1,6 @@
 # v1 Personal Website
 
-slated tmprovements for v2
+slated improvements for v2
 - simple portfolio
 - first essay
 

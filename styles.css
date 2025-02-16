@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: Helvetica;
+    background-color: #f7dfbe; /* Light tan color */
+}
+
+.container {
+    max-width: 54ch;   /* Left align with limited width */
+    text-align: left; 
+    margin-left: 80px; 
+    margin-top: 60px;
+    padding-left: 0;
+}
+
+span {
+    margin: 0 10px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+/* For links within the website (About, Portfolio, Essays) */
+header nav a {
+    color: black; 
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+header nav a:first-child {
+    margin-right: 180px;
+}
+
+header nav a:nth-child(2) {
+    margin-right: 30px;
+}
+
+/* For external links (Email, GitHub), remain blue even after being clicked. */
+a[href^="mailto:"] {
+    color: blue;
+}
+
+a[href^="https://"] {
+    color: blue;
+}
